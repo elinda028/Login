@@ -8,6 +8,4 @@ signUpButton.addEventListener('click', () => {
 signInButton.addEventListener('click',() => {
     main.classList.remove("right-panel-active")
 })
-document.querySelector('.btn1').addEventListener('click', () => {
-    window.location.href = "tableAdmin.html"
-})
+
