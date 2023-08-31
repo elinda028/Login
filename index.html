@@ -13,10 +13,13 @@
             <form action="#">
                 <h1>Log In</h1>
                 <br>
-                <div class="social-container">
+                <div class="social-container" name="form" onsubmit="return validated()">
                     <input type="text" name="Usename" placeholder="Username" required> <i class="fa-regular fa-user"></i>
+                    <div id="user_eror"> Username harap diisi </div>
                     <input type="text" name="Email" placeholder="Email" required> <i class="fa-regular fa-at"></i>
+                    <div id="email_eror"> Email harap diisi </div>
                     <input type="password" name="password" placeholder="password" required> <i class="fa-solid fa-lock"></i>
+                    <div id="pass_eror"> Password harap diisi </div>
                 </div>
                 <a href="tableAdmin.html"><button class="btn btn2" type="button">Log in</button></a>
                 <div><a href="#" class="link">Forgot your password?</a></div>
@@ -30,11 +33,15 @@
             <form action="#">
                 <h1>Sign Up</h1>
                 <h4>Create Account</h4>
-            <div>
+            <div name="form2" onsubmit="return validated()">
                 <input type="text" name="Usename" placeholder="Username" required> <i class="fa-regular fa-user"></i>
+                <div id="user_eror"> Username harap diisi </div>
                 <input type="tel" name="telephone" placeholder="Phone Number" required> <i class="fa-solid fa-phone"></i>
+                <div id="tel_eror"> Masukkan No Telephone </div>
                 <input type="text" name="Email" placeholder="Email" required> <i class="fa-solid fa-at"></i>
+                <div id="email_eror"> Email harap diisi </div>
                 <input type="password" name="password" placeholder="password" required> <i class="fa-solid fa-lock"></i>
+                <div id="pass_eror"> Password harap diisi </div>
             </div>
                 <a href="myProfil.html"><button class="btn btn1" type="button">Sign Up</button></a>
                 <div class="social-container">
