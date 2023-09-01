@@ -17,6 +17,7 @@ body{
     background: url(chrush.jpg);
     background-size: cover;
     background-position: 60%;
+    flex-direction: column;
 }
 main.table{
     width: 82vh;
